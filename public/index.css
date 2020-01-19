@@ -81,7 +81,7 @@ body{
   border-radius: 5px;
   padding: 10px;
   box-shadow: 1px 1px 2px #ccc;
-  /* grid-template-rows: repeat(3, 1fr); */
+  grid-template-rows: repeat(3, 1fr);
   grid-template-columns: repeat(5, 1fr);
 
 }
@@ -179,7 +179,7 @@ body{
 }
 
 /* Desktop  media */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 	.grid {
 		grid-template-columns: repeat(3, 1fr);
 	}

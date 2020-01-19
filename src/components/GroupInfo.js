@@ -12,7 +12,6 @@ export class GroupInfo extends Component {
     }
   }
    componentDidMount(){
-    console.log(this.props);
      var {group, description, id} = data[`${this.props.groupItem}`];
      this.setState({
        groupName:group,
