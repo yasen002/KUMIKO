@@ -1,0 +1,1060 @@
+
+{
+  "APPETIZERS":{
+      "id":1,
+      "group":"APPETIZERS",
+      "description":"discription of the sector goes here",
+      "detail":[
+        {
+          "id":1,
+          "item":"TEMPURA",
+          "price":7.95,
+          "disCription":"Choice of Shrimp, Mixed, Vegetable, Tofu, or Calamari, lightly fried in a delicate batter"
+        },
+        {
+          "id":2,
+          "item":"GYOZA",
+          "price":6.95,
+          "disCription":"Lightly fried Japanese beef dumplings with gyoza sauce"
+        },
+        {
+          "id":3,
+          "item":"SOFT SHELL CRAB",
+          "price":8.95,
+          "disCription":"Lightly fried soft shell crab served with ponzu sauce"
+        },
+        {
+          "id":4,
+          "item":"HEART ATTACK",
+          "price":7.95,
+          "disCription":"Lightly fried spicy tuna, cream cheese stuffed jalapeño with spicy creamy and eel sauce"
+        },
+        {
+          "id":5,
+          "item":"MONKEY BALL",
+          "price":6.95,
+          "disCription":"Deep fried spicy crab meat and cream cheese stuffed mushroom with spicy creamy and eel sauce"
+        },
+        {
+          "id":6,
+          "item":"CREAMY SHRIMP",
+          "price":8.95,
+          "disCription":"Lightly fried shrimp with cream cheese wrapped in wonton skin, drizzled with eel sauce (4pcs)"
+        },
+        {
+          "id":7,
+          "item":"YUMMY CRISPY",
+          "price":7.95,
+          "disCription":"Fresh tuna mixed with tomato, masago, and spicy sauce served on two crispy wonton skins (2pcs)"
+        },
+        {
+          "id":8,
+          "item":"SHRIMP KOCHI",
+          "price":7.95,
+          "disCription":"Grilled shrimp on skewer glazed with teriyaki sauce and hint of furikake"
+        },
+        {
+          "id":9,
+          "item":"TOFU TERIYAKI",
+          "price":5.95,
+          "disCription":"Pan fried tofu dusted with potato starch; glazed with teriyaki sauce and a hint of furikake"
+        },
+        {
+          "id":10,
+          "item":"HALF SHELL OYSTER",
+          "price":8.95,
+          "disCription":"Fresh oysters with hint of ponzu (4pcs)"
+        },
+        {
+          "id":11,
+          "item":" EDAMAME",
+          "price":5.95,
+          "disCription":"Steamed fresh edamame"
+        },
+        {
+          "id":12,
+          "item":"GARLIC EDAMAME",
+          "price":6.95,
+          "disCription":"Sautéed edamame with our special garlic butter (spicy optional)"
+        }
+      ]},
+  "ENTREES":{
+      "id":1,
+      "group":"ENTREES",
+      "description":"discription of the sector goes here",
+      "detail":[
+        {
+          "id":1,
+          "item":"CHICKEN TERIYAKI",
+          "price":14.95,
+          "disCription":"Grilled white meat chicken with teriyaki sauce "
+        },
+        {
+          "id":2,
+          "item":"BEEF TERIYAKI",
+          "price":14.95,
+          "disCription":"Grilled USDA sirloin with teriyaki sauce "
+        },
+        {
+          "id":3,
+          "item":"SALMON TERIYAKI",
+          "price":14.95,
+          "disCription":"Grilled sashimi grade salmon with teriyaki sauce"
+        },
+        {
+          "id":4,
+          "item":"SPICY PORK",
+          "price":14.95,
+          "disCription":"Stir fried sliced pork marinated in a special Korean pepper paste "
+        },
+        {
+          "id":5,
+          "item":" SPICY CHICKEN",
+          "price":14.95,
+          "disCription":"Stir fried sliced white meat chicken marinated in a special Korean pepper paste"
+        },
+        {
+          "id":6,
+          "item":"ASSORTED TEMPURA",
+          "price":14.95,
+          "disCription":"Assorted vegetables and shrimp tempura; served with tempura sauce"
+        },
+        {
+          "id":7,
+          "item":"FISH TEMPURA",
+          "price":14.95,
+          "disCription":"Lightly fried breaded white fish served with tempura sauce "
+        },
+        {
+          "id":8,
+          "item":"PORK CUTLET (TONKATSU)",
+          "price":14.95,
+          "disCription":"Lightly fried breaded pork tenderloin, served with katsu sauce"
+        },
+        {
+          "id":9,
+          "item":"CHICKEN CUTLET (TORI KATSU)",
+          "price":14.95,
+          "disCription":"Lightly fried breaded white meat chicken served with katsu sauce "
+        },
+        {
+          "id":10,
+          "item":"WHITE FISH CUTLET (FISH KATSU)",
+          "price":14.95,
+          "disCription":"Lightly fried breaded fish served with katsu sauce "
+        },
+        {
+          "id":11,
+          "item":"GINGER PORK",
+          "price":14.95,
+          "disCription":"Stir fried pork with freshly grated ginger, onion, and scallion; topped with house ginger sauce"
+        },
+        {
+          "id":12,
+          "item":" JAPANESE DUMPLINGS",
+          "price":14.95,
+          "disCription":"Lightly fried Japanese beef gyoza, egg roll, and shrimp shumai"
+        }
+      ]},
+  "JAPANESE_TAPAS":{
+    "id":1,
+    "group":"JAPANESE TAPAS",
+    "description":"discription of the sector goes here",
+    "detail":[
+      {
+        "id":1,
+        "item":"SCALLOP CEVICHE WITH KO SAUCE",
+        "price":5.95,
+        "disCription":"Large scallops topped with tobiko and KO sauce (2pcs)"
+      },
+      {
+        "id":2,
+        "item":"SALMON AVOCADO WRAP",
+        "price":7.95,
+        "disCription":"Diced avocado, red onion, and caper wrapped in thinly sliced salmon (4pcs)"
+      },
+      {
+        "id":3,
+        "item":"BAKED HALF SHELL LARGE MUSSELS WITH PONZU",
+        "price":8.95,
+        "disCription":"Baked in our house creamy sauce, topped with ponzu and masago (4pcs)"
+      },
+      {
+        "id":4,
+        "item":"TUNA TATAKI WRAP",
+        "price":9.95,
+        "disCription":"Stick crab, sprouts and cucumber wrapped with seared tuna, topped with our ginger dressing (6pcs)"
+      },
+      {
+        "id":5,
+        "item":"FRESH SALMON SALAD WRAP",
+        "price":12.95,
+        "disCription":"Fresh salmon with vegetables wrapped in rice paper (8pcs)"
+      },
+      {
+        "id":6,
+        "item":"SASHIMI SALAD WRAP",
+        "price":12.95,
+        "disCription":"Assorted fresh sashimi with vegetables wrapped in rice paper (8pcs)"
+      },
+      {
+        "id":7,
+        "item":"ENGLISH CUCUMBER SALMON ROLL",
+        "price":9.95,
+        "disCription":"Fresh salmon wrapped in English cucumber with capers"
+      },
+      {
+        "id":8,
+        "item":"KUMIKO WRAP",
+        "price":12.95,
+        "disCription":"Shrimp, stick crab, vegetables, Japanese mint leaf and spicy crab meat wrapped in rice paper with mildly spicy ginger dressing and sweet lemon parsley sauce (8pcs)"
+      } 
+    ]},
+"SALADS":{
+      "id":1,
+      "group":"SALADS",
+      "description":"discription of the sector goes here",
+      "detail":[
+        {
+          "id":1,
+          "item":"KUMIKO GREEN SALAD",
+          "price":5.95,
+          "disCription":"Mixed greens with ginger dressing"
+        },
+        {
+          "id":2,
+          "item":"CUCUMBER SALAD",
+          "price":6.95,
+          "disCription":"Finely sliced cucumber marinated in sweet lemon vinegar"
+        },
+        {
+          "id":3,
+          "item":"SEAWEED SALAD",
+          "price":6.95,
+          "disCription":"Marinated seaweed with sesame seeds"
+        },
+        {
+          "id":4,
+          "item":" TOFU SALAD",
+          "price":7.95,
+          "disCription":"Organic tofu with furikake on top of mixed greens with ginger dressing"
+        },
+        {
+          "id":5,
+          "item":"TAKO SALAD",
+          "price":8.95,
+          "disCription":"Marinated octopus with daikon"
+        },
+        {
+          "id":6,
+          "item":"SOFT SHELL CRAB SALAD",
+          "price":10.95,
+          "disCription":"Lightly fried soft shell crab on top of mixed greens with ponzu and ginger dressing"
+        },
+        {
+          "id":7,
+          "item":"SALMON SKIN SALAD",
+          "price":8.95,
+          "disCription":"Crispy salmon skin and bonito flakes on top of mixed greens with ginger dressing, garnished with daikon"
+        },
+        {
+          "id":8,
+          "item":"SEARED TUNA / ALBACORE SALAD",
+          "price":14.95,
+          "disCription":"Choice of slightly seared black pepper tuna OR albacore fillets on top of mixed greens with ponzu and ginger dressing, garnished with daikon"
+        },
+        {
+          "id":9,
+          "item":"SPICY TUNA SALAD",
+          "price":14.95,
+          "disCription":"Fresh tuna pieces mixed with spicy sauce on top of mixed greens with ginger dressing, garnished with daikon"
+        },
+        {
+          "id":10,
+          "item":"SASHIMI SALAD",
+          "price":14.95,
+          "disCription":"Assorted fresh sashimi on top of mixed greens with ginger dressing, garnished with daikon (spicy optional)"
+        },
+        {
+          "id":11,
+          "item":"CRAB & CUCUMBER SALAD",
+          "price":9.95,
+          "disCription":"Crab meat mixed with our cucumber salad"
+        },
+        {
+          "id":12,
+          "item":"POKI TUNA SALAD",
+          "price":14.95,
+          "disCription":"Fresh tuna on top of our seaweed salad with special house poki dressing"
+        }
+      ]},
+  "SOUP_NOODLES":{
+      "id":1,
+      "group":"SOUP & NOODLES",
+      "description":"discription of the sector goes here",
+      "detail":[
+        {
+          "id":1,
+          "item":"KUMIKO NABEYAKI",
+          "price":12.95,
+          "disCription":"Soft Japanese noodle soup with chicken, shiitake mushroom, mixed tempura, and tamago; garnished with green onion and tempura flakes"
+        },
+        {
+          "id":2,
+          "item":"UDON",
+          "price":10.95,
+          "disCription":"Soft Japanese noodle soup with your choice of mixed tempura, beef, vegetable, OR chicken; garnished with green onion and tempura flakes"
+        },
+        {
+          "id":3,
+          "item":"YAKI SOBA",
+          "price":11.95,
+          "disCription":"Stir-fried noodle with daily fresh mixed vegetables and a choice of chicken, beef, vegetable, OR tofu"
+        },
+        {
+          "id":4,
+          "item":"SPICY SEAFOOD UDON / RAMEN NOODLES",
+          "price":12.95,
+          "disCription":"Choice of udon OR ramen with assorted seafood, shiitake mushroom and topped with green onion and tempura flakes"
+        }
+      ]},
+  "BOWLS":{
+      "id":1,
+      "group":"BOWLS",
+      "description":"discription of the sector goes here",
+      "detail":[
+        {
+          "id":1,
+          "item":"CHICKEN TERIYAKI BOWL",
+          "price":8.95,
+          "disCription":"Grilled white meat chicken with teriyaki sauce"
+        },
+        {
+          "id":2,
+          "item":"BEEF TERIYAKI BOWL",
+          "price":10.95,
+          "disCription":"Grilled USDA sirloin with teriyaki sauce"
+        },
+        {
+          "id":3,
+          "item":"SALMON TERIYAKI",
+          "price":10.95,
+          "disCription":"Lightly fried soft shell crab served with ponzu sauce"
+        }
+      ]},
+  "CHEF_SPECIAL_DISHES":{
+      "id":1,
+      "group":"CHEF'S SPECIAL DISHES",
+      "description":"discription of the sector goes here",
+      "detail":[
+        {
+          "id":1,
+          "item":"SEARED TATAKI",
+          "price":14.95,
+          "disCription":"Choice of sliced seared peppered tuna, salmon OR albacore with red and green onion; ponzu sauce "
+        },
+        {
+          "id":2,
+          "item":"KAMA",
+          "price":11.95,
+          "disCription":"Lightly fried Japanese beef dumplings with gyoza sauce"
+        },
+        {
+          "id":3,
+          "item":"CHIRASHI BOWL",
+          "price":18.95,
+          "disCription":"Assorted fresh sashimi on a bed of sushi rice, served with miso soup "
+        },
+        {
+          "id":4,
+          "item":"UNAGI BOWL",
+          "price":18.95,
+          "disCription":"Grilled fresh water eel on a bed of steamed rice, bonito flakes, and eel sauce; served with miso soup "
+        },
+        {
+          "id":5,
+          "item":" KOREAN SPICY SASHIMI BOWL",
+          "price":14.95,
+          "disCription":"Fresh assortment of raw fish cubes on a bed of white rice and mixed greens on top with masago; served with miso soup and spicy sauce on the side"
+        },
+        {
+          "id":6,
+          "item":"SUSHI & SASHIMI BENTO",
+          "price":24.95,
+          "disCription":"Daily fresh sashimi (7pcs) and chef's choice sushi (4pcs) with a choice of traditional maki (6pcs): kanpyo, tuna, salmon, cucumber OR avocado; served with miso soup"
+        },
+        {
+          "id":7,
+          "item":"BULGOGI",
+          "price":18.95,
+          "disCription":"Grilled Korean style marinated beef, served with miso soup, green salad, and steamed rice"
+        }
+      ]},
+  "SUSHI_SASHIMI_COMBINATION":{
+      "id":1,
+      "group":"SUSHI & SASHIMI COMBINATION",
+      "description":"discription of the sector goes here",
+      "detail":[
+        {
+          "id":1,
+          "item":"MAKI SUSHI",
+          "price":19.95,
+          "disCription":"California roll, tuna roll, and cucumber roll, served with miso soup"
+        },
+        {
+          "id":2,
+          "item":"NIGIRI SUSHI",
+          "price":6.95,
+          "disCription":"Lightly fried Japanese beef dumplings with gyoza sauce"
+        },
+        {
+          "id":3,
+          "item":"SUSHI COMBO",
+          "price":24.95,
+          "disCription":"Assortment of eight different nigiri and a choice of California roll, tuna roll or spicy tuna roll; served with miso soup "
+        },
+        {
+          "id":4,
+          "item":" LOVE BOAT",
+          "price":39.95,
+          "disCription":"California roll, crunch roll, and vegetable roll (24pcs) with assorted nigiri (8pcs) and miso soup (2) "
+        },
+        {
+          "id":5,
+          "item":"KUMIKO BOAT",
+          "price":59.95,
+          "disCription":"Assorted nigiri (8pcs), assorted sashimi (8pcs), rainbow roll, crunch roll, and miso soup (2)"
+        },
+        {
+          "id":6,
+          "item":"KITCHEN BOAT",
+          "price":54.95,
+          "disCription":"Chicken and beef teriyaki, shrimp and vegetable tempura, mixed dumplings, crunch roll, California roll, cucumber roll, fresh fruit, green salad and miso soup (3) "
+        },
+        {
+          "id":7,
+          "item":"ASSORTED SASHIMI- SMALL",
+          "price":39.95,
+          "disCription":"Assortment of tuna, salmon, yellowtail, ono, albacore, white fish, ika, clam sashimi and salad "
+        },
+        {
+          "id":8,
+          "item":"ASSORTED SASHIMI- MEDIUM",
+          "price":75.95,
+          "disCription":"Assortment of tuna, salmon, yellowtail, ono, albacore, white fish, ika, clam sashimi and salad"
+        },
+        {
+          "id":9,
+          "item":"ASSORTED SASHIMI- LARGE",
+          "price":99.95,
+          "disCription":"Assortment of tuna, salmon, yellowtail, ono, albacore, white fish, ika, clam sashimi and salad "
+        }
+      ]},
+  "FRIED_RICE":{
+      "id":1,
+      "group":"FRIED RICE",
+      "description":"discription of the sector goes here",
+      "detail":[
+        {
+          "id":1,
+          "item":"GARLIC FRIED RICE",
+          "price":12.95,
+          "disCription":"Made to order fried rice with garlic butter, fresh mixed vegetables and a CHOICE OF: chicken, beef, or tofu "
+        },
+        {
+          "id":2,
+          "item":"SHRIMP FRIED RICE",
+          "price":14.95,
+          "disCription":"Made to order fried rice with garlic butter, fresh mixed vegetables and shrimp "
+        }
+      ]},
+  "SUSHI":{
+      "id":1,
+      "group":"SUSHI (2pcs)",
+      "description":"discription of the sector goes here",
+      "detail":[
+        {
+          "id":1,
+          "item":"TUNA (MAGURO)",
+          "price":6.95,
+          "disCription":""
+        },
+        {
+          "id":2,
+          "item":"SALMON (SAKE)",
+          "price":6.95,
+          "disCription":""
+        },
+        {
+          "id":3,
+          "item":"ALBACORE (SHIRO MAGURO)",
+          "price":6.95,
+          "disCription":""
+        },
+        {
+          "id":4,
+          "item":" YELLOWTAIL (HAMACHI)",
+          "price":6.95,
+          "disCription":""
+        },
+        {
+          "id":5,
+          "item":" YELLOWTAIL TORO",
+          "price":8.95,
+          "disCription":""
+        },
+        {
+          "id":6,
+          "item":" ESCOLAR (ONO)",
+          "price":6.95,
+          "disCription":""
+        },
+        {
+          "id":7,
+          "item":"HALIBUT (HIRAME)",
+          "price":8.95,
+          "disCription":""
+        },
+        {
+          "id":8,
+          "item":"MACKEREL (SABA)",
+          "price":5.95,
+          "disCription":""
+        },
+        {
+          "id":9,
+          "item":"SPANISH MACKEREL (AJI)",
+          "price":null,
+          "disCription":"Market Price "
+        },
+        {
+          "id":10,
+          "item":"SHRIMP (EBI)",
+          "price":5.95,
+          "disCription":""
+        },
+        {
+          "id":11,
+          "item":"CRAB (KANI)",
+          "price":4.95,
+          "disCription":""
+        },
+        {
+          "id":12,
+          "item":"OCTOPUS (TAKO)",
+          "price":5.95,
+          "disCription":""
+        },
+        {
+          "id":13,
+          "item":"SQUID (IKA)",
+          "price":4.95,
+          "disCription":""
+        },
+        {
+          "id":14,
+          "item":"SMELT ROE (MASAGO)",
+          "price":4.95,
+          "disCription":""
+        },
+        {
+          "id":15,
+          "item":"FRESH WATER EEL (UNAGI)",
+          "price":7.95,
+          "disCription":""
+        },
+        {
+          "id":16,
+          "item":"SEA EEL (ANAGO)",
+          "price":7.95,
+          "disCription":""
+        },
+        {
+          "id":17,
+          "item":"EGG (TAMAGO)",
+          "price":4.95,
+          "disCription":""
+        },
+        {
+          "id":18,
+          "item":"SEA URCHIN (UNI)",
+          "price":null,
+          "disCription":"Market Price "
+        },
+        {
+          "id":19,
+          "item":"SALMON EGG (IKURA)",
+          "price":6.95,
+          "disCription":""
+        },
+        {
+          "id":20,
+          "item":"SURF CLAM (HOKIGAI)",
+          "price":5.95,
+          "disCription":""
+        },
+        {
+          "id":21,
+          "item":"SWEET SHRIMP (AMA-EBI)",
+          "price":null,
+          "disCription":"Market Price "
+        },
+        {
+          "id":22,
+          "item":"BEAN CURD (INARI)",
+          "price":4.95,
+          "disCription":""
+        },
+        {
+          "id":23,
+          "item":"SCALLOP (KAIBASIRA)",
+          "price":8.95,
+          "disCription":""
+        }
+      ]},
+  "SASHIMI":{
+      "id":1,
+      "group":"SASHIMI (7pcs)",
+      "description":"discription of the sector goes here",
+      "detail":[
+        {
+          "id":1,
+          "item":"TUNA (MAGURO)",
+          "price":17.95,
+          "disCription":""
+        },
+        {
+          "id":2,
+          "item":"SALMON (SAKE)",
+          "price":17.95,
+          "disCription":""
+        },
+        {
+          "id":3,
+          "item":"ALBACORE (SHIRO MAGURO)",
+          "price":17.95,
+          "disCription":""
+        },
+        {
+          "id":4,
+          "item":"YELLOWTAIL (HAMACHI)",
+          "price":18.95,
+          "disCription":""
+        },
+        {
+          "id":5,
+          "item":"YELLOWTAIL TORO",
+          "price":24.95,
+          "disCription":""
+        },
+        {
+          "id":6,
+          "item":"ESCOLAR (ONO)",
+          "price":17.95,
+          "disCription":""
+        },
+        {
+          "id":7,
+          "item":"HALIBUT (HIRAME)",
+          "price":21.95,
+          "disCription":""
+        },
+        {
+          "id":8,
+          "item":"MACKEREL (SABA)",
+          "price":14.95,
+          "disCription":""
+        },
+        {
+          "id":9,
+          "item":"SPANISH MACKEREL (AJI)",
+          "price":null,
+          "disCription":"Market Price "
+        },
+        {
+          "id":10,
+          "item":"OCTOPUS (TAKO)",
+          "price":15.95,
+          "disCription":""
+        },
+        {
+          "id":11,
+          "item":"MIXED SASHIMI (12 PCS)",
+          "price":26.95,
+          "disCription":"Three pieces of tuna, salmon, yellowtail, and white fish"
+        },
+        {
+          "id":12,
+          "item":"SASHIMI COMBO (10 PCS)",
+          "price":26.95,
+          "disCription":"Two pieces tuna, salmon, albacore, ono and white fish served with miso soup, cucumber & seaweed salad, and rice"
+        }
+      ]},
+  "ROLLS":{
+      "id":1,
+      "group":"Cut-Roll / Hand-Roll",
+      "description":"discription of the sector goes here",
+      "detail":[
+        {
+          "id":1,
+          "item":"CALIFORNIA ROLL",
+          "price":null,
+          "disCription":"7.95/5.95"
+        },
+        {
+          "id":2,
+          "item":"TUNA ROLL",
+          "price":null,
+          "disCription":"7.95/5.95"
+        },
+        {
+          "id":3,
+          "item":"SPICY TUNA",
+          "price":null,
+          "disCription":"7.95/5.95"
+        },
+        {
+          "id":4,
+          "item":"SALMON ROLL",
+          "price":null,
+          "disCription":"7.95/5.95"
+        },
+        {
+          "id":5,
+          "item":"ALBACORE ROLL",
+          "price":null,
+          "disCription":"7.95/5.95"
+        },
+        {
+          "id":6,
+          "item":"YELLOWTAIL ROLL",
+          "price":null,
+          "disCription":"7.95 / 5.95"
+        },
+        {
+          "id":7,
+          "item":"SCALLOP ROLL",
+          "price":null,
+          "disCription":"7.95 / 5.95"
+        },
+        {
+          "id":8,
+          "item":"CRAB & SHRIMP ROLL",
+          "price":null,
+          "disCription":"8.95 / 6.95"
+        },
+        {
+          "id":9,
+          "item":"SALMON SKIN ROLL",
+          "price":null,
+          "disCription":"7.95 / 5.95"
+        },
+        {
+          "id":10,
+          "item":"MEXICAN ROLL",
+          "price":null,
+          "disCription":"8.95 / 6.95"
+        },
+        {
+          "id":11,
+          "item":"CRUNCH ROLL",
+          "price":null,
+          "disCription":"8.95 / 5.95"
+        },
+        {
+          "id":12,
+          "item":"EEL ROLL",
+          "price":null,
+          "disCription":"8.95 / 6.95"
+        },
+        {
+          "id":13,
+          "item":"OCTOPUS ROLL",
+          "price":null,
+          "disCription":"7.95 / 6.95"
+        },
+        {
+          "id":14,
+          "item":"CUCUMBER ROLL",
+          "price":null,
+          "disCription":"5.95 / 4.95"
+        },
+        {
+          "id":15,
+          "item":"AVOCADO ROLL",
+          "price":null,
+          "disCription":"5.95 / 4.95"
+        },
+        {
+          "id":17,
+          "item":"ASPARAGUS ROLL",
+          "price":null,
+          "disCription":"5.95 / 4.95"
+        },
+        {
+          "id":18,
+          "item":"KUMIKO VEGETABLE ROLL",
+          "price":8.95,
+          "disCription":"cucumber, avocado, kobo, radish sprout, beets, asparagus, inari, kampyo, oshinko "
+        },
+        {
+          "id":20,
+          "item":"TEMPURA VEGETABLE ROLL",
+          "price":9.95,
+          "disCription":"eggplant, carrot, zucchini, yam, green beans, squash skin, drizzled with eel sauce "
+        },
+        {
+          "id":21,
+          "item":"CUCUMBER & AVOCADO ROLL",
+          "price":6.95,
+          "disCription":""
+        }
+      ]},
+  "SPECIAL_ROLLS":{
+      "id":1,
+      "group":"SPECIAL ROLLS",
+      "description":"discription of the sector goes here",
+      "detail":[
+        {
+          "id":1,
+          "item":"KUMIKO ROLL",
+          "price":14.95,
+          "disCription":"tempura shrimp, crab meat, and avocado inside; salmon, tempura flakes, eel sauce and spicy creamy on top "
+        },
+        {
+          "id":2,
+          "item":"RAINBOW ROLL",
+          "price":14.95,
+          "disCription":"crab meat, cucumber, and avocado inside; tuna salmon, albacore, shrimp, white fish, and avocado on top"
+        },
+        {
+          "id":3,
+          "item":"RAINBOW CRUNCH ROLL",
+          "price":16.95,
+          "disCription":"tempura shrimp, crab meat, and avocado inside; tuna, salmon, albacore, shrimp, white fish, avocado, tempura flakes, and spicy creamy on top "
+        },
+        {
+          "id":4,
+          "item":"GOLDEN TEMPURA ROLL",
+          "price":12.95,
+          "disCription":"spicy tuna and avocado inside; deep fried then drizzled with spicy creamy sauce and eel sauce "
+        },
+        {
+          "id":5,
+          "item":"ALASKA ROLL",
+          "price":14.95,
+          "disCription":"crab meat, cucumber, and avocado inside; fresh Atlantic salmon on top"
+        },
+        {
+          "id":6,
+          "item":" PHILLY ROLL",
+          "price":14.95,
+          "disCription":"cream cheese, asparagus, and avocado inside; fresh salmon on top"
+        },
+        {
+          "id":7,
+          "item":"RED FOX ROLL",
+          "price":12.95,
+          "disCription":"crab meat, cucumber, and avocado inside; spicy tuna and green onion on top"
+        },
+        {
+          "id":8,
+          "item":"CRUNCH RED FOX ROLL",
+          "price":14.95,
+          "disCription":"tempura shrimp, crab meat, and avocado inside; spicy tuna, tempura flakes, eel sauce, and spicy creamy sauce on top"
+        },
+        {
+          "id":9,
+          "item":"TIGER ROLL",
+          "price":14.95,
+          "disCription":"tempura shrimp, crab meat, avocado, and spicy tuna inside; tempura flakes, eel sauce, and spicy creamy sauce on top"
+        },
+        {
+          "id":10,
+          "item":"SUPER STAR ROLL",
+          "price":15.95,
+          "disCription":"tempura shrimp, crab meat, and avocado; fresh tuna and salmon on top"
+        },
+        {
+          "id":11,
+          "item":"GRAND TASTY ROL",
+          "price":15.95,
+          "disCription":"spicy tuna, cucumber, and avocado inside; seared albacore, red onion, garlic ponzu, mustard sauce on top"
+        },
+        {
+          "id":12,
+          "item":"SHOGUN ROLL",
+          "price":13.95,
+          "disCription":"tempura shrimp, salmon, crab meat and avocado inside; tempura flakes, eel sauce, and spicy creamy sauce on top"
+        },
+        {
+          "id":13,
+          "item":"HAWAIIAN ROLL",
+          "price":15.95,
+          "disCription":"spicy tuna, cucumber, and avocado inside; fresh tuna, red onion slices, and ponzu sauce"
+        },
+        {
+          "id":14,
+          "item":"SUMMER ROLL (NO RICE OR SEAWEED)",
+          "price":17.95,
+          "disCription":"an assortment of fish, radish sprouts, and kobo wrapped in cucumber with ponzu and ginger sauce"
+        },
+        {
+          "id":15,
+          "item":"DOUBLE FAMOUS ROLL",
+          "price":12.95,
+          "disCription":"spicy tuna , crab meat, cucumber, and avocado inside; tempura flakes on top"
+        },
+        {
+          "id":16,
+          "item":"ANGELS ROLL",
+          "price":16.95,
+          "disCription":"spicy crab meat, asparagus, and avocado inside; white tuna and tobiko on top with a mildly spicy ginger dressing"
+        },
+        {
+          "id":17,
+          "item":"CHERRY BLOSSOM ROLL",
+          "price":16.95,
+          "disCription":"spicy crab meat, asparagus, and cilantro inside; fresh tuna on top with a mildly spicy ginger dressing"
+        },
+        {
+          "id":18,
+          "item":"SALMON WONDERLAND ROLL",
+          "price":15.95,
+          "disCription":"smoked salmon, cream cheese, red onion, and asparagus inside; salmon on top dressed with capers"
+        },
+        {
+          "id":19,
+          "item":"RED DRAGON ROLL",
+          "price":19.95,
+          "disCription":"double tempura shrimp, spicy tuna, and avocado inside; baked fresh water eel, tempura flakes, and eel sauce on top"
+        },
+        {
+          "id":20,
+          "item":"",
+          "price":19.95,
+          "disCription":"spicy yellowtail, asparagus, and avocado inside; fresh yellowtail, sliced jalapenos and cilantro on top with yuzu sauce"
+        }
+      ]},
+  "SPECIAL_COOKED_ROLLS":{
+      "id":1,
+      "group":"SPECIAL COOKED ROLLS",
+      "description":"discription of the sector goes here",
+      "detail":[
+        {
+          "id":1,
+          "item":"BANZAI- SPIDER ROLL",
+          "price":12.95,
+          "disCription":"lightly fried soft shell crab, crab meat, cucumber, avocado, radish sprout, and kobo inside; smelt roe on top"
+        },
+        {
+          "id":2,
+          "item":"DRAGON ROLL",
+          "price":14.95,
+          "disCription":"tempura shrimp, crab meat, avocado inside; fresh water eel, avocado and eel sauce on top"
+        },
+        {
+          "id":3,
+          "item":"SHRIMP KILLER ROLL",
+          "price":13.95,
+          "disCription":"tempura shrimp, crab meat, and avocado inside; shrimp, avocado, tempura flakes, eel sauce, and spicy creamy on top"
+        },
+        {
+          "id":4,
+          "item":" CATERPILLAR ROLL",
+          "price":14.95,
+          "disCription":"fresh water eel, crab meat, and avocado inside; half avocado and eel sauce on top"
+        },
+        {
+          "id":5,
+          "item":"SNOW CONE ROLL",
+          "price":14.95,
+          "disCription":"spicy crab meat, cucumber, and avocado inside; baked with albacore, salmon, and lobster with eel sauce, masago, and green onion on top"
+        },
+        {
+          "id":6,
+          "item":"VOLCANO ROLL",
+          "price":14.95,
+          "disCription":"an assortment of baked fish, scallops, eel sauce, masago, and green onion on top"
+        },
+        {
+          "id":7,
+          "item":"SPICY BAKED SALMON ROLL",
+          "price":14.95,
+          "disCription":"spicy crab meat and avocado inside; baked salmon, spicy creamy, and eel sauce on top "
+        },
+        {
+          "id":8,
+          "item":"SHRIMP TEMPURA ROLL",
+          "price":11.95,
+          "disCription":"tempura shrimp, crab meat, and avocado inside; tempura flakes and eel sauce on top"
+        },
+        {
+          "id":9,
+          "item":"SALMON TEMPURA ROLL",
+          "price":12.95,
+          "disCription":"tempura salmon, crab meat and avocado inside; tempura flakes, eel sauce, and spicy creamy on top"
+        },
+        {
+          "id":10,
+          "item":"B.S.C.R.",
+          "price":14.95,
+          "disCription":"crab meat, cucumber, and avocado inside; baked crab meat, scallop, masago, green onion, and eel sauce on top"
+        },
+        {
+          "id":11,
+          "item":"CRAZY ROLL",
+          "price":14.95,
+          "disCription":"crab meat, cucumber, and avocado inside; baked red snapper, and eel sauce on top"
+        },
+        {
+          "id":12,
+          "item":"BABY LOBSTER ROLL",
+          "price":14.95,
+          "disCription":"crab meat, cucumber and avocado inside; baked lobster, crab meat, masago, eel sauce, and green onion on top"
+        },
+        {
+          "id":13,
+          "item":"DYNAMITE ROLL",
+          "price":14.95,
+          "disCription":"crab meat, cucumber, and avocado inside with an assortment of shellfish with vegetables in dynamite sauce; eel sauce, masago, and green onion on top"
+        },
+        {
+          "id":14,
+          "item":"POPCORN SCALLOP ROLL",
+          "price":14.95,
+          "disCription":"lightly fried scallops seasoned with garlic salt, pepper; served on top of spicy California roll with masago, spicy creamy sauce and eel sauce"
+        },
+        {
+          "id":15,
+          "item":"POPCORN LOBSTER ROLL",
+          "price":15.95,
+          "disCription":"lightly fried lobster seasoned with garlic salt and pepper; served on top of spicy California roll with masago, spicy creamy sauce and eel sauce"
+        },
+        {
+          "id":16,
+          "item":"SLO FIESTA ROLL",
+          "price":15.95,
+          "disCription":"spicy crab meat, avocado and asparagus with salmon wrapped in a tortilla; deep fried then drizzled with eel sauce and spicy creamy on top"
+        },
+        {
+          "id":17,
+          "item":"BUTTER SHRIMP ROLL",
+          "price":17.95,
+          "disCription":"shrimp seasoned with garlic salt and pepper, stir-fried in butter with asparagus and onion; served on top of a California roll"
+        },
+        {
+          "id":18,
+          "item":"GOLDEN CALIFORNIA ROLL",
+          "price":14.95,
+          "disCription":"California roll topped with salmon then deep fried, eel sauce and spicy creamy on top"
+        },
+        {
+          "id":19,
+          "item":"OH! BOY ROLL",
+          "price":12.95,
+          "disCription":"spicy California deep fried with eel sauce and spicy mayo"
+        } 
+      ]}
+          
+}
