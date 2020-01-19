@@ -178,3 +178,13 @@ body{
   width: 40px;
 }
 
+/* Desktop  media */
+@media (min-width: 768px) {
+	.grid {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.grid .item img {
+		width: 60px;
+	}
+}
