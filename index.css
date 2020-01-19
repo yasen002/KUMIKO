@@ -1,0 +1,202 @@
+:root {
+  --yellow: #ffc600;
+  --black: #272727;
+  --primary-color:#cc0000;
+  --secondary-color: #7c0000; 
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  display:  flex;
+  flex-direction: column;
+}
+
+/* ---------------splash */
+
+#splash{
+  position: absolute;
+  top: 0;
+  left:0;
+  width: 100%;
+  height: 200vh;
+  background-color: var(--primary-color);
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  transition: opacity 1s;
+}
+
+#splash img{
+  width: auto-fill;
+}
+
+#splash.fade{
+  display: none;
+}
+
+
+/* ------------------ header */
+.app-header{
+  background-color: var(--primary-color);
+  box-shadow: 3px 3px 10px #888;
+}
+
+.app-header .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 10px;
+}
+
+.app-header .logo{
+  width:  70px;
+  margin-bottom: 16px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 10px;
+  padding: 20px;
+}
+
+.grid .item{
+  display: grid;
+  grid-auto-flow: row;
+  border:  1px #ccc solid;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 1px 1px 2px #ccc;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(10, 1fr);
+ 
+}
+
+.grid .item p{
+  grid-column: 1 / -1;
+  font-size: 14px;
+  color: var(--secondary-color);
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.grid .item h1{
+  margin-bottom: 5px;
+  grid-column: 1 / -1;
+  grid-row: 1/6;
+  font-size: 60px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  font-family: 'Alegreya', serif;
+}
+
+.grid .item img{
+  grid-column: 10/ 11;
+  width: 60px;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+	overflow: none;
+  padding: 10px;
+  padding-bottom: 2.5rem;
+}
+
+.appfooter{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  flex-shrink: 0;
+  background: #f4f4f4;
+  color: #444;
+  padding: 10px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.appfooter ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+
+
+.appfooter ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.appfooter ul li i{
+  font-size: 22px;
+}
+
+#restauranName{
+  font-family: 'Cute Font', cursive;
+  color: #ccc;
+  font-size:100px;
+  letter-spacing: 5px;
+}
+
+.ManueItemHover{
+  background-color: rgb(230, 223, 223);
+}
+
+
+.subheader{
+  position: fixed;
+  background-color: var(--secondary-color);
+  color: white;
+  box-shadow: 3px 3px 10px #888;
+  margin: 0;
+  width:  5%;
+  font-size: 14px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.subheader p{
+  margin: 4px;
+}
+
+.subheader img{
+  width: 40px;
+}
+
+/* Desktop  media */
+@media (max-width: 768px) {
+	.grid {
+		grid-template-columns: repeat(3, 1fr);
+  }
+  
+
+	.grid .item img {
+		width: 60px;
+	}
+}
+
+.restaurantName{
+  font-family: 'Cute Font', cursive;
+  font-size: 100px
+}

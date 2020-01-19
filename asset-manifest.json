@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.js": "/KUMIKO/static/js/main.32a22157.chunk.js",
+    "main.js.map": "/KUMIKO/static/js/main.32a22157.chunk.js.map",
+    "runtime-main.js": "/KUMIKO/static/js/runtime-main.1e2efe92.js",
+    "runtime-main.js.map": "/KUMIKO/static/js/runtime-main.1e2efe92.js.map",
+    "static/css/2.ef122f89.chunk.css": "/KUMIKO/static/css/2.ef122f89.chunk.css",
+    "static/js/2.cc6fa6db.chunk.js": "/KUMIKO/static/js/2.cc6fa6db.chunk.js",
+    "static/js/2.cc6fa6db.chunk.js.map": "/KUMIKO/static/js/2.cc6fa6db.chunk.js.map",
+    "index.html": "/KUMIKO/index.html",
+    "precache-manifest.72d510bda513b9f10604f4b1de609c59.js": "/KUMIKO/precache-manifest.72d510bda513b9f10604f4b1de609c59.js",
+    "service-worker.js": "/KUMIKO/service-worker.js",
+    "static/css/2.ef122f89.chunk.css.map": "/KUMIKO/static/css/2.ef122f89.chunk.css.map",
+    "static/js/2.cc6fa6db.chunk.js.LICENSE": "/KUMIKO/static/js/2.cc6fa6db.chunk.js.LICENSE",
+    "static/media/appetizer.svg": "/KUMIKO/static/media/appetizer.379a3cbf.svg",
+    "static/media/chef.svg": "/KUMIKO/static/media/chef.4e2d8359.svg",
+    "static/media/chopsticks.svg": "/KUMIKO/static/media/chopsticks.bd9d7070.svg",
+    "static/media/eat.svg": "/KUMIKO/static/media/eat.c6c3a4ce.svg",
+    "static/media/font-awesome.min.css": "/KUMIKO/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/food-and-restaurant (1).svg": "/KUMIKO/static/media/food-and-restaurant (1).18bb7725.svg",
+    "static/media/fried-rice.svg": "/KUMIKO/static/media/fried-rice.3289fba7.svg",
+    "static/media/noodles.svg": "/KUMIKO/static/media/noodles.bb677c03.svg",
+    "static/media/pot.svg": "/KUMIKO/static/media/pot.dee3f131.svg",
+    "static/media/salad.svg": "/KUMIKO/static/media/salad.8d14369c.svg",
+    "static/media/sashimi.svg": "/KUMIKO/static/media/sashimi.ae7a25f3.svg",
+    "static/media/sushi3.svg": "/KUMIKO/static/media/sushi3.7591899c.svg",
+    "static/media/sushi_1.svg": "/KUMIKO/static/media/sushi_1.b596f6dc.svg",
+    "static/media/sushi_2.svg": "/KUMIKO/static/media/sushi_2.67a9fa40.svg",
+    "static/media/sushi_com.svg": "/KUMIKO/static/media/sushi_com.e7b68e5b.svg",
+    "static/media/tapas.svg": "/KUMIKO/static/media/tapas.f0b58e60.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1e2efe92.js",
+    "static/css/2.ef122f89.chunk.css",
+    "static/js/2.cc6fa6db.chunk.js",
+    "static/js/main.32a22157.chunk.js"
+  ]
+}
