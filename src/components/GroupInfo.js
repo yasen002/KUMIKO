@@ -38,7 +38,11 @@ export class GroupInfo extends Component {
           onMouseLeave={this.handleHover.bind(this)}
           onClick={this.props.groupClick}
           >
+<<<<<<< HEAD
            <h4>{this.state.groupName}</h4>
+=======
+           <h1 className="groupName">{this.state.groupName} </h1>
+>>>>>>> 0324c5182551e8c4619f4cb281d68d1d4d4148fa
            <p className="desc">{this.state.description}</p>
            <img src={this.state.img} alt="" />
        </div>

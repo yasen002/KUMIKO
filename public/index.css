@@ -81,8 +81,13 @@ body{
   border-radius: 5px;
   padding: 10px;
   box-shadow: 1px 1px 2px #ccc;
+<<<<<<< HEAD
   grid-template-rows: repeat(3, 1fr);
   grid-template-columns: repeat(5, 1fr);
+=======
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(10, 1fr);
+>>>>>>> 0324c5182551e8c4619f4cb281d68d1d4d4148fa
  
 }
 
@@ -94,6 +99,7 @@ body{
   margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
 .grid .item h4{
   margin-bottom: 5px;
   grid-column: 1 / -1;
@@ -102,6 +108,22 @@ body{
 .grid .item img{
   grid-column: 5/ 6;
   width: 30px;
+=======
+.grid .item h1{
+  margin-bottom: 5px;
+  grid-column: 1 / -1;
+  grid-row: 1/6;
+  font-size: 60px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  font-family: 'Alegreya', serif;
+}
+
+.grid .item img{
+  grid-column: 10/ 11;
+  width: 60px;
+>>>>>>> 0324c5182551e8c4619f4cb281d68d1d4d4148fa
 }
 
 .container {
@@ -182,9 +204,22 @@ body{
 @media (max-width: 768px) {
 	.grid {
 		grid-template-columns: repeat(3, 1fr);
+<<<<<<< HEAD
 	}
+=======
+  }
+  
+>>>>>>> 0324c5182551e8c4619f4cb281d68d1d4d4148fa
 
 	.grid .item img {
 		width: 60px;
 	}
 }
+<<<<<<< HEAD
+=======
+
+.restaurantName{
+  font-family: 'Cute Font', cursive;
+  font-size: 100px
+}
+>>>>>>> 0324c5182551e8c4619f4cb281d68d1d4d4148fa

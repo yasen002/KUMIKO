@@ -2,7 +2,10 @@ import tapas from '../img/tapas.svg'
 import appetizer from '../img/appetizer.svg'
 import salad from '../img/salad.svg'
 import noodles from '../img/noodles.svg'
+<<<<<<< HEAD
 import food_and_restaurant from '../img/food-and-restaurant.svg'
+=======
+>>>>>>> 0324c5182551e8c4619f4cb281d68d1d4d4148fa
 import eat from '../img/eat.svg'
 import food_and_restaurant_1 from '../img/food-and-restaurant (1).svg'
 import chef from '../img/chef.svg'
@@ -13,7 +16,11 @@ import sushi_2 from '../img/sushi_2.svg'
 import sushi_1 from '../img/sushi_1.svg'
 import sushi3 from '../img/sushi3.svg'
 import pot from '../img/pot.svg'
+<<<<<<< HEAD
 // import food_and_restaurant_2 from '../img/food-and-restaurant_2.svg'
+=======
+
+>>>>>>> 0324c5182551e8c4619f4cb281d68d1d4d4148fa
 
 
 
