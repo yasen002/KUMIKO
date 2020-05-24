@@ -1,33 +1,25 @@
 :root {
   --yellow: #ffc600;
   --black: #272727;
-  --primary-color:#cc0000;
-  --secondary-color: #7c0000; 
+  --primary-color: #cc0000;
+  --secondary-color: #7c0000;
 }
 
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-html,
 body {
-  height: 100vh;
-}
-
-body{
-  font-family: 'Roboto', sans-serif;
-  display:  flex;
-  flex-direction: column;
+  font-family: "Roboto", sans-serif;
 }
 
 /* ---------------splash */
-
-#splash{
+#splash {
   position: absolute;
   top: 0;
-  left:0;
+  left: 0;
   width: 100%;
   height: 200vh;
   background-color: var(--primary-color);
@@ -36,25 +28,27 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: top;
-  transition: opacity 1s;
+  transition: opacity 1s ease-out;
 }
 
-#splash img{
-  width: auto-fill;
-}
-
-#splash.fade{
+#splash.fade {
   display: none;
 }
 
+#splash h1 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-/* ------------------ header */
-.app-header{
+/* ------ header--------*/
+.app-header {
   background-color: var(--primary-color);
   box-shadow: 3px 3px 10px #888;
 }
 
-.app-header .container{
+.app-header .container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -62,36 +56,43 @@ body{
   padding: 15px 10px;
 }
 
-.app-header .logo{
-  width:  70px;
+.app-header .logo {
+  width: 70px;
   margin-bottom: 16px;
 }
 
-.grid{
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-gap: 10px; 
-  padding: 20px;
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: none;
+  padding: 10px;
+  padding-bottom: 2.5rem;
 }
 
-.grid .item{
+.container h1 {
+  font-family: "Cute Font", cursive;
+  color: #ccc;
+  letter-spacing: 5px;
+}
+
+/* -------- grid ----------- */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 10px;
+  padding: 50px;
+}
+
+.grid .item {
   display: grid;
   grid-auto-flow: row;
-  border:  1px #ccc solid;
+  border: 1px #ccc solid;
   border-radius: 5px;
-  padding: 10px;
   box-shadow: 1px 1px 2px #ccc;
-<<<<<<< HEAD
   grid-template-rows: repeat(3, 1fr);
-  grid-template-columns: repeat(5, 1fr);
-=======
-  grid-template-rows: repeat(4, 1fr);
-  grid-template-columns: repeat(10, 1fr);
->>>>>>> 0324c5182551e8c4619f4cb281d68d1d4d4148fa
- 
 }
 
-.grid .item p{
+.grid .item p {
   grid-column: 1 / -1;
   font-size: 14px;
   color: var(--secondary-color);
@@ -99,42 +100,17 @@ body{
   margin-bottom: 20px;
 }
 
-<<<<<<< HEAD
-.grid .item h4{
+.grid .item h4 {
   margin-bottom: 5px;
   grid-column: 1 / -1;
 }
 
-.grid .item img{
+.grid .item img {
   grid-column: 5/ 6;
   width: 30px;
-=======
-.grid .item h1{
-  margin-bottom: 5px;
-  grid-column: 1 / -1;
-  grid-row: 1/6;
-  font-size: 60px;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  hyphens: auto;
-  font-family: 'Alegreya', serif;
 }
 
-.grid .item img{
-  grid-column: 10/ 11;
-  width: 60px;
->>>>>>> 0324c5182551e8c4619f4cb281d68d1d4d4148fa
-}
-
-.container {
-	width: 90%;
-	margin: 0 auto;
-	overflow: none;
-  padding: 10px;
-  padding-bottom: 2.5rem;
-}
-
-.appfooter{
+.appfooter {
   position: relative;
   bottom: 0;
   width: 100%;
@@ -146,13 +122,12 @@ body{
   margin-top: 10px;
 }
 
-.appfooter ul{
+.appfooter ul {
   display: flex;
   align-items: center;
   justify-content: space-around;
   list-style: none;
 }
-
 
 .appfooter ul li {
   display: flex;
@@ -160,66 +135,36 @@ body{
   align-items: center;
 }
 
-
-.appfooter ul li i{
+.appfooter ul li i {
   font-size: 22px;
 }
 
-#restauranName{
-  font-family: 'Cute Font', cursive;
+#restauranName {
+  font-family: "Cute Font", cursive;
   color: #ccc;
-  font-size:100px;
   letter-spacing: 5px;
 }
+#splash #restauranName {
+  font-size: 100px;
+}
 
-.ManueItemHover{
+.ManueItemHover {
   background-color: rgb(230, 223, 223);
 }
 
-
-.subheader{
+.goback {
   position: fixed;
-  background-color: var(--secondary-color);
-  color: white;
-  box-shadow: 3px 3px 10px #888;
-  margin: 0;
-  width:  5%;
-  font-size: 14px;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-radius: 5px;
-}
-
-.subheader p{
-  margin: 4px;
-}
-
-.subheader img{
-  width: 40px;
+  left: 10px;
+  top: 200px;
 }
 
 /* Desktop  media */
 @media (max-width: 768px) {
-	.grid {
-		grid-template-columns: repeat(3, 1fr);
-<<<<<<< HEAD
-	}
-=======
+  .grid {
+    grid-template-rows: repeat(2, 1fr);
   }
-  
->>>>>>> 0324c5182551e8c4619f4cb281d68d1d4d4148fa
 
-	.grid .item img {
-		width: 60px;
-	}
+  .grid .item img {
+    width: 60px;
+  }
 }
-<<<<<<< HEAD
-=======
-
-.restaurantName{
-  font-family: 'Cute Font', cursive;
-  font-size: 100px
-}
->>>>>>> 0324c5182551e8c4619f4cb281d68d1d4d4148fa

@@ -1,15 +1,31 @@
+/*
+ * Component:  MainMenue.js
+ * --------------------
+ * component description:
+ *this component simplly returns a call to the function showDetail()
+ *
+ *functions: groupClick,goBackClik,showDetail
+ *
+ *showDetail():
+ *this funtion
+ *
+ *
+ */
+
+//--------import files-------
 import React, { Component } from "react";
-import MenueA from "./MenueA02";
+import Menue from "./Menue";
 import GroupItem from "./GroupItem";
-import GoBack from "./GoBack";
+// import GoBack from "./GoBack";
+
 export class MainMenue extends Component {
   constructor() {
     super();
     this.state = {
-      item: false,
-      main: true,
-      back: false,
-      groupName: ""
+      main: true, //render main manue if this is True
+      item: false, //render a spacific item from main manue if this is True
+      back: false, //i might remove this later
+      groupName: "" //name of the menue group that has been clicked
     };
   }
 
@@ -21,22 +37,27 @@ export class MainMenue extends Component {
   //go back to main manue
   goBackClik() {
     const { item } = this.state;
-    this.setState({ item: !item, main: item });
+    this.setState({ item: !item, main: item, groupName: "" });
   }
-
-  //decide what to pass to render
+  //decide what item to pass to render
   showDetail() {
     const { item, main, groupName } = this.state;
+    //render specific item if item is true
     if (item) {
       return (
         <React.Fragment>
-          <GoBack goBackClik={this.goBackClik.bind(this)} />
-          <GroupItem groupName={groupName} />
+          {/* <GoBack goBackClik={this.goBackClik.bind(this)} /> */}
+          <GroupItem
+            groupName={groupName}
+            goBackClik={this.goBackClik.bind(this)}
+          />
         </React.Fragment>
       );
     }
+
+    //render the main manue if main is True
     if (main) {
-      return <MenueA groupClick={this.groupClick.bind(this)} />;
+      return <Menue groupClick={this.groupClick.bind(this)} />;
     }
   }
 

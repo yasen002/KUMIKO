@@ -1,15 +1,12 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import App from './App';
-<<<<<<< HEAD
-import 'font-awesome/css/font-awesome.min.css';
-ReactDOM.render(<App/> , document.getElementById('root'));
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import * as serviceWorker from "./serviceWorker";
 
-=======
-//font
-import 'font-awesome/css/font-awesome.min.css';
-
-ReactDOM.render(<App/> , document.getElementById('root'));
-
->>>>>>> 0324c5182551e8c4619f4cb281d68d1d4d4148fa
-  
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById("root")
+);
+serviceWorker.unregister();
