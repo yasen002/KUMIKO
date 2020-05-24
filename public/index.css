@@ -84,6 +84,7 @@ body {
 }
 
 .grid .item {
+  padding: 10px;
   display: grid;
   grid-auto-flow: row;
   border: 1px #ccc solid;
