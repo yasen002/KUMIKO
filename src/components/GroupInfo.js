@@ -31,13 +31,13 @@ export class GroupInfo extends Component {
     }
 
      return (
-       <div 
+       <div  
           id={`item${this.state.id}`} 
           className={`item ${hoverClass}`}
           onMouseEnter={this.handleHover.bind(this)}
           onMouseLeave={this.handleHover.bind(this)}
           onClick={this.props.groupClick}
-          >
+          >  
 <<<<<<< HEAD
            <h4>{this.state.groupName}</h4>
 =======

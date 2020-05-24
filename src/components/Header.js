@@ -9,7 +9,7 @@ class Header extends Component {
   <div className="container">
     <img src={logo} alt="header" className="logo" />
     <h1>KUMIKO</h1>
-  </div>
+  </div>  
 =======
 export class Header extends Component {
   render() {
